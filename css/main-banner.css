@@ -17,9 +17,9 @@
     padding: 20px 40px;
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
 }
 
 .main-banner__button:hover {
     background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
 }
