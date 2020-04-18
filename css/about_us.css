@@ -10,11 +10,6 @@
     font-size: 25px;
 }
 
-
-/* .about-us__paragraph {
-    margin: 10px;
-} */
-
 @media(max-width: 1099px) {
     .about-us__text {
         width: 70%;

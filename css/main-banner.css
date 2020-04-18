@@ -1,5 +1,5 @@
 .main-banner {
-    background: url("/images/banner4.jpg");
+    background: url("/images/banner9.jpg");
     height: 100vh;
     background-position: center center;
     background-size: cover;
@@ -10,16 +10,16 @@
 
 .main-banner__button {
     text-decoration: none;
-    color: #fefefc;
+    color: black;
     font: bold;
     font-size: 40px;
-    border: 1px solid #fefefc;
+    border: 2px solid black;
     padding: 20px 40px;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.5);
+    background: #fefee957;
 }
 
 .main-banner__button:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.856);
     transition: 0.5s;
 }
