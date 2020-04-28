@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="/css/about_us.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/bookmark.css">
+    <link rel="stylesheet" href="/css/route.css">
+    <link rel="stylesheet" href="/css/contact.css">
 
 </head>
 
@@ -39,8 +42,8 @@
                     </a>
                 </li>
                 <li class="nav__menu-item">
-                    <a href="#price-list" class="nav__link">
-                        Cennik
+                    <a href="#services" class="nav__link">
+                        Usługi
                     </a>
                 </li>
                 <li class="nav__menu-item">
@@ -54,7 +57,7 @@
                     </a>
                 </li>
                 <li class="nav__menu-item">
-                    <a href="#adress" class="nav__link">
+                    <a href="#route" class="nav__link">
                         Jak dojechać
                     </a>
                 </li>
@@ -84,15 +87,15 @@
             </div>
             <div class="main-banner__info">
                 <div class="main-banner__info-box">
-                    <img class="main-banner__image" src="images/icons/speedometer.svg">
+                    <img class="main-banner__image" src="images/icons/speedometer.svg" alt="">
                     <p class="main-banner__paragraph">Szybkość</p>
                 </div>
                 <div class="main-banner__info-box">
-                    <img class="main-banner__image" src="images/icons/clipboard.svg">
+                    <img class="main-banner__image" src="images/icons/clipboard.svg" alt="">
                     <p class="main-banner__paragraph">Profesjonalizm</p>
                 </div>
                 <div class="main-banner__info-box">
-                    <img class="main-banner__image" src="images/icons/cash.svg">
+                    <img class="main-banner__image" src="images/icons/cash.svg" alt="">
                     <p class="main-banner__paragraph">Niskie ceny</p>
                 </div>
             </div>
@@ -114,52 +117,128 @@
         </section>
     </div>
 
-    <div class="container" id="gallery">
+    <section class="bookmark bookmark-services">
+        <h2 class="bookmark__header">
+            Usługi
+        </h2>
+    </section>
 
-        <div class="gallery">
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-1"></div>
+    <section class="bookmark bookmark-gallery" id="gallery">
+        <h2 class="bookmark__header">
+            Galeria
+        </h2>
+    </section>
+
+    <div class="container">
+        <div class="gallery ">
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-1 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-2"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-2 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-3"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-3 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-4"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-4 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-5"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-5 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-6"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-6 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-7"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-7 "></div>
                 </div>
             </div>
-            <div class="gallery__item">
-                <div class="gallery__aspect-ratio">
-                    <div class="gallery__image gallery__image-8"></div>
+            <div class="gallery__item ">
+                <div class="gallery__aspect-ratio ">
+                    <div class="gallery__image gallery__image-8 "></div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
+    <section class="bookmark bookmark-contact " id="contact">
+        <h2 class="bookmark__header ">
+            Kontakt
+        </h2>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__wrapper">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <img class="contact__item-image" src="/images/icons/directions.svg" alt="">
+                        </div>
+                        <div class="contact__item-text">
+                            <p class="contact__item-header">Adres</p>
+                            <p class="contact__item-description">Tuchomska 90<br>80-297 Banino</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <img class="contact__item-image" src="/images/icons/telephone.svg" alt="">
+                        </div>
+                        <div class="contact__item-text">
+                            <p class="contact__item-header">Porozmawiajmy</p>
+                            <a href="tel:xxx-xxx-xxx" class="contact__item-info-link">xxx-xxx-xxx</a>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__item-icon">
+                            <img class="contact__item-image" src="/images/icons/email.svg" alt="">
+                        </div>
+                        <div class="contact__item-text">
+                            <p class="contact__item-header">Napisz do nas</p>
+                            <a href="mailto:gkclean@gmail.com" class="contact__item-info-link">gkclean@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form">
+                    <p class="contact__form-title">
+                        Wyślij nam wiadomość</p>
+                    <label class="contact__form-label">Podaj nam swoję imię i nazwisko *</label>
+                    <input name="name" class="contact-form__field contact-form__field-smaller" required placeholder="Imię">
+                    <input name="surname" class="contact-form__field contact-form__field-smaller" required placeholder="Nazwisko">
+                    <label class="contact__form-label">Wpisz swój email *</label>
+                    <input name="email" type="email" class="contact-form__field" required placeholder="np. gkclean@gmail.com">
+                    <label class="contact__form-label">Wpisz swój numer telefonu</label>
+                    <input name="phone" type="text" class="contact-form__field" placeholder="np. 222-333-444">
+                    <label class="contact__form-label">Wiadomość *</label>
+                    <textarea placeholder="Napisz do nas wiadomość" class="contact-form__field contact-form__field-text-area" name="message"></textarea>
+                    <div class="contact__form__submit-container">
+                        <button class="contact__form-submit-button">Wyślij wiadomość</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="bookmark bookmark-route " id="route">
+        <h2 class="bookmark__header ">
+            Jak dojechać?
+        </h2>
+    </section>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.239638870033!2d18.395938215989784!3d54.405744202530336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd9f3b7995e31f%3A0x7daee31ab96c8375!2sTuchomska%2090%2C%2080-297%20Banino!5e0!3m2!1spl!2spl!4v1587999526955!5m2!1spl!2spl "
+        class="route "></iframe>
 
 
 </body>
