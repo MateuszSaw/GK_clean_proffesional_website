@@ -42,11 +42,6 @@
                     </a>
                 </li>
                 <li class="nav__menu-item">
-                    <a href="#services" class="nav__link">
-                        Usługi
-                    </a>
-                </li>
-                <li class="nav__menu-item">
                     <a href="#gallery" class="nav__link">
                         Galeria
                     </a>
@@ -102,26 +97,56 @@
         </div>
     </section>
 
-
     <div class="container" id="about-us">
         <section class="about-us">
             <div class="about-us__text">
-                <h3 class="about-us__header">Czyszczenie to nasza pasja</h3>
+                <h3 class="about-us__header">Czym się zajmujemy? </h3>
                 <p class="about-us__paragraph">
                     Jesteśmy nową firmą działającą na rynku od końcówki 2019 roku na terenie Trójmiasta oraz okolic. Zajmujemy się czyszczeniem oraz impregnacją poszyć dachowych, elewacji oraz kostki brukowej lub ogrodzeń. Czyścimy domy, budynki prywatne, publiczne i przemysłowe
                     oraz hale i garaże.. Jesteśmy młodym zespołem z dużym zapałem oraz ambicjami. Wykonujemy swoją pracę solidnie przy użyciu odpowiedniego sprzętu oraz środków chemicznych. Używamy do naszych zadań profesjonalnych myjek wysokociśnieniowych
                     sprawdzonej firmy o mocy rzędu 220 bar dzięki czemu wykonywane zlecenie jest szybkie oraz dokładne.
                 </p>
             </div>
-            <img class="about-us__image" src="/images/about-us-tools.jpg" alt="">
+            <div class="about-us__image-container">
+                <img class="about-us__image" src="/images/about-us-tools.jpg" alt="">
+            </div>
+            <div class="about-us__head-text">
+                <h3 class="about-us__services-header">Czyścimy i impregnujemy</h3>
+            </div>
+            <div class="about-us__services">
+                <div class="about-us__hexagon-wrapper">
+                    <div class="about-us__hexagon">
+                        <img class="about-us__hexagon-icon" src="/images/icons/roof.svg" alt="">
+                    </div>
+                    <p class="about-us__hexagon-paragraph">Pokrycia dachowe</p>
+                </div>
+                <div class="about-us__hexagon-wrapper">
+                    <div class="about-us__hexagon">
+                        <img class="about-us__hexagon-icon" src="/images/icons/home.svg" alt="">
+                    </div>
+                    <p class="about-us__hexagon-paragraph">Elewacje</p>
+                </div>
+                <div class="about-us__hexagon-wrapper">
+                    <div class="about-us__hexagon">
+                        <img class="about-us__hexagon-icon" src="/images/icons/street-square.svg" alt="">
+                    </div>
+                    <p class="about-us__hexagon-paragraph">Kostka brukowa</p>
+                </div>
+                <div class="about-us__hexagon-wrapper">
+                    <div class="about-us__hexagon">
+                        <img class="about-us__hexagon-icon" src="/images/icons/fence.svg" alt="">
+                    </div>
+                    <p class="about-us__hexagon-paragraph">Ogrodzenia</p>
+                </div>
+                <div class="about-us__hexagon-wrapper">
+                    <div class="about-us__hexagon">
+                        <img class="about-us__hexagon-icon" src="/images/icons/office-block.svg" alt="">
+                    </div>
+                    <p class="about-us__hexagon-paragraph">Domy i biura</p>
+                </div>
+            </div>
         </section>
     </div>
-
-    <section class="bookmark bookmark-services">
-        <h2 class="bookmark__header">
-            Usługi
-        </h2>
-    </section>
 
     <section class="bookmark bookmark-gallery" id="gallery">
         <h2 class="bookmark__header">
@@ -130,7 +155,7 @@
     </section>
 
     <div class="container">
-        <div class="gallery ">
+        <section class="gallery ">
             <div class="gallery__item ">
                 <div class="gallery__aspect-ratio ">
                     <div class="gallery__image gallery__image-1 "></div>
@@ -171,7 +196,7 @@
                     <div class="gallery__image gallery__image-8 "></div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <section class="bookmark bookmark-contact " id="contact">
@@ -216,14 +241,14 @@
                     <p class="contact__form-title">
                         Wyślij nam wiadomość</p>
                     <label class="contact__form-label">Podaj nam swoję imię i nazwisko *</label>
-                    <input name="name" class="contact-form__field contact-form__field-smaller" required placeholder="Imię">
-                    <input name="surname" class="contact-form__field contact-form__field-smaller" required placeholder="Nazwisko">
+                    <input name="name" class="contact-form__field contact-form__field-smaller" required placeholder="Imię" onfocus="this.placeholder=''" onblur="this.placeholder='Imię'">
+                    <input name="surname" class="contact-form__field contact-form__field-smaller" required placeholder="Nazwisko" onfocus="this.placeholder=''" onblur="this.placeholder='Nazwisko'">
                     <label class="contact__form-label">Wpisz swój email *</label>
-                    <input name="email" type="email" class="contact-form__field" required placeholder="np. gkclean@gmail.com">
+                    <input name="email" type="email" class="contact-form__field" required placeholder="np. gkclean@gmail.com" onfocus="this.placeholder=''" onblur="this.placeholder='np. gkclean@gmail.com'">
                     <label class="contact__form-label">Wpisz swój numer telefonu</label>
-                    <input name="phone" type="text" class="contact-form__field" placeholder="np. 222-333-444">
+                    <input name="phone" type="text" class="contact-form__field" placeholder="np. 222-333-444" onfocus="this.placeholder=''" onblur="this.placeholder='np. 222-333-444'">
                     <label class="contact__form-label">Wiadomość *</label>
-                    <textarea placeholder="Napisz do nas wiadomość" class="contact-form__field contact-form__field-text-area" name="message"></textarea>
+                    <textarea placeholder="Napisz do nas wiadomość" class="contact-form__field contact-form__field-text-area" name="message" onfocus="this.placeholder=''" onblur="this.placeholder='Napisz do nas wiadomość'"></textarea>
                     <div class="contact__form__submit-container">
                         <button class="contact__form-submit-button">Wyślij wiadomość</button>
                     </div>

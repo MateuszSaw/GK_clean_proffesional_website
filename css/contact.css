@@ -123,6 +123,22 @@
     color: #666666;
     line-height: 1.2;
     padding: 0 25px;
+    outline: none;
+}
+
+.contact-form__field:focus {
+    border: 1px solid #abb8ca;
+    animation-name: zoom_for_input;
+    animation-duration: 0.3s;
+}
+
+@keyframes zoom_for_input {
+    0% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .contact-form__field-smaller {
