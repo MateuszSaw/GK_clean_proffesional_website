@@ -74,6 +74,12 @@
     transform: scale(1.2);
 }
 
+@media(max-width: 767px) {
+    .main-banner__info-box:hover {
+        transform: none;
+    }
+}
+
 .main-banner__paragraph {
     font-size: 20px;
     letter-spacing: 1.5px;
