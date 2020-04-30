@@ -20,7 +20,6 @@
 .main-banner__head-text {
     text-align: center;
     margin-top: 35px;
-    margin-bottom: -20px;
 }
 
 .main-banner__header {
@@ -73,12 +72,6 @@
 .main-banner__info-box:hover {
     background: rgba(255, 255, 255, 0.637);
     transform: scale(1.2);
-}
-
-@media(max-width: 1199px) {
-    .main-banner__info-box:hover {
-        transform: none;
-    }
 }
 
 .main-banner__paragraph {

@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta title="GK Clean Profesional">
-    <meta name="description" content="Profesjonalne czyszczenie dachówek i nie tylko">
+    <meta title="GK Clean Professional">
+    <meta name="description" content="Zajmujemy się profesjonalnym czyszczeniem oraz impregnacją poszyć dachowych, kostki brukowej, elewacji, ogrodzeń, domów itd.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@
                     </a>
                 </li>
                 <li class="nav__menu-item">
-                    <a href="https://www.instagram.pl" target="blank" class="nav__link">
+                    <a href="https://www.instagram.com" target="blank" class="nav__link">
                         <img src="images/icons/social/insta.svg" alt="Instagram" class="social-icon">
                     </a>
                 </li>
@@ -102,9 +102,9 @@
             <div class="about-us__text">
                 <h3 class="about-us__header">Czym się zajmujemy? </h3>
                 <p class="about-us__paragraph">
-                    Jesteśmy nową firmą działającą na rynku od końcówki 2019 roku na terenie Trójmiasta oraz okolic. Zajmujemy się czyszczeniem oraz impregnacją poszyć dachowych, elewacji oraz kostki brukowej lub ogrodzeń. Czyścimy domy, budynki prywatne, publiczne i przemysłowe
-                    oraz hale i garaże.. Jesteśmy młodym zespołem z dużym zapałem oraz ambicjami. Wykonujemy swoją pracę solidnie przy użyciu odpowiedniego sprzętu oraz środków chemicznych. Używamy do naszych zadań profesjonalnych myjek wysokociśnieniowych
-                    sprawdzonej firmy o mocy rzędu 220 bar dzięki czemu wykonywane zlecenie jest szybkie oraz dokładne.
+                    Jesteśmy nową firmą działającą na rynku od 2019 roku, na terenie Trójmiasta i okolic. Zajmujemy się czyszczeniem oraz impregnacją poszyć dachowych, elewacji, kostki brukowej oraz ogrodzeń. Czyścimy domy, budynki prywatne, publiczne i przemysłowe, a także
+                    hale i garaże. Nasz zespół składa się z młodych ludzi, do wykonywanych zadań podchodzimy z ogromnym zapałem i starannością. Do naszych prac wykorzystujemy profesjonalny sprzęt, między innymi myjki wysokociśnieniowe o mocy rzędu 220
+                    barów, co znacznie przyspiesza naszą pracę.
                 </p>
             </div>
             <div class="about-us__image-container">
@@ -116,7 +116,7 @@
             <div class="about-us__services">
                 <div class="about-us__hexagon-wrapper">
                     <div class="about-us__hexagon">
-                        <img class="about-us__hexagon-icon" src="/images/icons/roof.svg" alt="">
+                        <img class="about-us__hexagon-icon about-us__hexagon-icon-special" src="/images/icons/roof.svg" alt="">
                     </div>
                     <p class="about-us__hexagon-paragraph">Pokrycia dachowe</p>
                 </div>
@@ -130,7 +130,7 @@
                     <div class="about-us__hexagon">
                         <img class="about-us__hexagon-icon" src="/images/icons/street-square.svg" alt="">
                     </div>
-                    <p class="about-us__hexagon-paragraph">Kostka brukowa</p>
+                    <p class="about-us__hexagon-paragraph">Kostki brukowe</p>
                 </div>
                 <div class="about-us__hexagon-wrapper">
                     <div class="about-us__hexagon">
@@ -237,23 +237,23 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact__form">
+                <form class="contact__form" id="form">
                     <p class="contact__form-title">
                         Wyślij nam wiadomość</p>
                     <label class="contact__form-label">Podaj nam swoję imię i nazwisko *</label>
-                    <input name="name" class="contact-form__field contact-form__field-smaller" required placeholder="Imię" onfocus="this.placeholder=''" onblur="this.placeholder='Imię'">
-                    <input name="surname" class="contact-form__field contact-form__field-smaller" required placeholder="Nazwisko" onfocus="this.placeholder=''" onblur="this.placeholder='Nazwisko'">
+                    <input name="name" id="name" class="contact-form__field contact-form__field-smaller" required placeholder="Imię" onfocus="this.placeholder=''" onblur="this.placeholder='Imię'">
+                    <input name="surname" id="surname" class="contact-form__field contact-form__field-smaller" required placeholder="Nazwisko" onfocus="this.placeholder=''" onblur="this.placeholder='Nazwisko'">
                     <label class="contact__form-label">Wpisz swój email *</label>
-                    <input name="email" type="email" class="contact-form__field" required placeholder="np. gkclean@gmail.com" onfocus="this.placeholder=''" onblur="this.placeholder='np. gkclean@gmail.com'">
+                    <input name="email" id="email" type="email" class="contact-form__field" required placeholder="np. gkclean@gmail.com" onfocus="this.placeholder=''" onblur="this.placeholder='np. gkclean@gmail.com'">
                     <label class="contact__form-label">Wpisz swój numer telefonu</label>
-                    <input name="phone" type="text" class="contact-form__field" placeholder="np. 222-333-444" onfocus="this.placeholder=''" onblur="this.placeholder='np. 222-333-444'">
+                    <input name="phone" id="phone" type="text" class="contact-form__field" placeholder="np. 222-333-444" onfocus="this.placeholder=''" onblur="this.placeholder='np. 222-333-444'">
                     <label class="contact__form-label">Wiadomość *</label>
-                    <textarea placeholder="Napisz do nas wiadomość" class="contact-form__field contact-form__field-text-area" name="message" onfocus="this.placeholder=''" onblur="this.placeholder='Napisz do nas wiadomość'"></textarea>
-                    <div class="contact__form__submit-container">
-                        <button class="contact__form-submit-button">Wyślij wiadomość</button>
-                    </div>
+                    <textarea placeholder="Napisz do nas wiadomość" class="contact-form__field contact-form__field-text-area" name="message" id="message" onfocus="this.placeholder=''" onblur="this.placeholder='Napisz do nas wiadomość'"></textarea>
+                    <!-- <div class="contact__form__submit-container"> -->
+                    <button type="button" name="submit" id="submit" class="contact__form-submit-button">Wyślij wiadomość</button>
+                    <!-- </div> -->
+                </form>
             </div>
-            </form>
         </div>
     </section>
 
@@ -264,7 +264,6 @@
     </section>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.239638870033!2d18.395938215989784!3d54.405744202530336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd9f3b7995e31f%3A0x7daee31ab96c8375!2sTuchomska%2090%2C%2080-297%20Banino!5e0!3m2!1spl!2spl!4v1587999526955!5m2!1spl!2spl "
         class="route "></iframe>
-
 
 </body>
 

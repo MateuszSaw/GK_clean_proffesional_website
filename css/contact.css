@@ -91,6 +91,12 @@
     }
 }
 
+@media(max-width: 767px) {
+    .contact__form {
+        padding: 0;
+    }
+}
+
 .contact__form-title {
     width: 100%;
     font-size: 25px;

@@ -1,135 +1,140 @@
-    .about-us {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 10px;
-        flex-wrap: wrap;
-    }
-    
-    .about-us__text {
-        max-width: 55%;
-        line-height: 1.5;
-        font-size: 20px;
-        text-align: justify;
-    }
-    
-    @media(max-width: 1199px) {
-        .about-us__text {
-            font-size: 18px;
+        .about-us {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px;
+            flex-wrap: wrap;
         }
-    }
-    
-    @media(max-width: 767px) {
+        
         .about-us__text {
-            max-width: 100%;
-            font-size: 18px;
+            max-width: 55%;
+            line-height: 1.5;
+            font-size: 20px;
+            text-align: justify;
         }
-    }
-    
-    .about-us__header {
-        font: 40px bold;
-        text-align: center;
-        text-align: left;
-    }
-    
-    @media(max-width: 1199px) {
+        
+        @media(max-width: 1199px) {
+            .about-us__text {
+                font-size: 18px;
+            }
+        }
+        
+        @media(max-width: 767px) {
+            .about-us__text {
+                max-width: 100%;
+                font-size: 18px;
+            }
+        }
+        
         .about-us__header {
-            font-size: 30px;
-            margin-bottom: 0px;
+            font: 40px bold;
             text-align: center;
+            text-align: left;
         }
-    }
-    
-    @media(max-width: 767px) {
-        .about-us__header {
-            font-size: 25px;
-            margin-bottom: 5px;
+        
+        @media(max-width: 1199px) {
+            .about-us__header {
+                font-size: 30px;
+                margin-bottom: 0px;
+                text-align: center;
+            }
         }
-    }
-    
-    .about-us__image-container {
-        max-width: 40%;
-    }
-    
-    .about-us__image {
-        width: 100%;
-        object-fit: cover;
-    }
-    
-    @media(max-width: 767px) {
+        
+        @media(max-width: 767px) {
+            .about-us__header {
+                font-size: 25px;
+                margin-bottom: 5px;
+            }
+        }
+        
+        .about-us__image-container {
+            max-width: 40%;
+        }
+        
         .about-us__image {
-            display: none;
+            width: 100%;
+            object-fit: cover;
         }
-    }
-    /* hexagons  */
-    
-    .about-us__hexagon-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .about-us__services {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    
-    .about-us__head-text {
-        width: 100%;
-    }
-    
-    .about-us__services-header {
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 40px;
-    }
-    
-    @media(max-width: 767px) {
+        
+        @media(max-width: 767px) {
+            .about-us__image {
+                display: none;
+            }
+        }
+        /* hexagons  */
+        
+        .about-us__hexagon-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .about-us__services {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .about-us__head-text {
+            width: 100%;
+        }
+        
         .about-us__services-header {
-            font-size: 25px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 40px;
         }
-    }
-    
-    .about-us__hexagon {
-        position: relative;
-        width: 105px;
-        height: 60.62px;
-        background-color: #cfd7e2;
-        margin: 30.31px 0;
-    }
-    
-    .about-us__hexagon:before,
-    .about-us__hexagon:after {
-        content: "";
-        position: absolute;
-        width: 0;
-        border-left: 52.5px solid transparent;
-        border-right: 52.5px solid transparent;
-    }
-    
-    .about-us__hexagon:before {
-        bottom: 100%;
-        border-bottom: 30.31px solid #cfd7e2;
-    }
-    
-    .about-us__hexagon:after {
-        top: 100%;
-        width: 0;
-        border-top: 30.31px solid #cfd7e2;
-    }
-    /* text in hexagons */
-    
-    .about-us__hexagon-paragraph {
-        font-size: 15px;
-    }
-    
-    .about-us__hexagon-icon {
-        position: absolute;
-        height: 50px;
-        width: 50px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+        
+        @media(max-width: 767px) {
+            .about-us__services-header {
+                font-size: 25px;
+            }
+        }
+        
+        .about-us__hexagon {
+            position: relative;
+            width: 105px;
+            height: 60.62px;
+            background-color: #cfd7e2;
+            margin: 30.31px 0;
+        }
+        
+        .about-us__hexagon:before,
+        .about-us__hexagon:after {
+            content: "";
+            position: absolute;
+            width: 0;
+            border-left: 52.5px solid transparent;
+            border-right: 52.5px solid transparent;
+        }
+        
+        .about-us__hexagon:before {
+            bottom: 100%;
+            border-bottom: 30.31px solid #cfd7e2;
+        }
+        
+        .about-us__hexagon:after {
+            top: 100%;
+            width: 0;
+            border-top: 30.31px solid #cfd7e2;
+        }
+        /* text in hexagons */
+        
+        .about-us__hexagon-paragraph {
+            font-size: 15px;
+        }
+        
+        .about-us__hexagon-icon {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .about-us__hexagon-icon-special {
+            height: 80px;
+            width: 80px;
+        }
