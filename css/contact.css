@@ -15,7 +15,7 @@
 /* contact-info left side */
 
 .contact__info {
-    background: url("/images/skyscraper.jpg");
+    background: url("../images/skyscraper.jpg");
     width: 40%;
     background-position: center center;
     background-size: cover;

@@ -19,19 +19,19 @@
 }
 
 .bookmark-services {
-    background-image: url("/images/bookmark/cleaner.jpg");
+    background-image: url("../images/bookmark/cleaner.jpg");
 }
 
 .bookmark-gallery {
-    background-image: url("/images/bookmark/analogue-background-business-camera.jpg");
+    background-image: url("../images/bookmark/analogue-background-business-camera.jpg");
 }
 
 .bookmark-contact {
-    background-image: url("/images/bookmark/telephone.jpg");
+    background-image: url("../images/bookmark/telephone.jpg");
 }
 
 .bookmark-route {
-    background-image: url("/images/bookmark/street.jpg");
+    background-image: url("../images/bookmark/street.jpg");
 }
 
 .bookmark::after {
